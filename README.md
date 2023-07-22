@@ -5,7 +5,7 @@
 First of all thanks to mr. Samsonov Dima (https://github.com/sdima1357/spectrum128_cpm_8bit).  
 This project wouldn't never come true without his code and support.  
   
-Also thanks to https://github.com/w4ilun/pocket-keyboard and all [TMK Keyboard](https://github.com/w4ilun/pocket-keyboard/)   community :)  
+Also thanks to https://github.com/w4ilun/pocket-keyboard and all [TMK Keyboard](https://github.com/tmk/tmk_keyboard)   community :)  
 Their amazing software are really customizable even for zx spectrum. Much neat.  
   
 Thanks to [ZX UNO](https://zxuno.speccy.org/descarga_e.shtml) for keyboard prints.  
@@ -16,8 +16,9 @@ Important notes for "VCC-GND STM32F407VET6 Mini" Board:
 -Change crystal from 25mHz to 8mHz.  
 -Remove all fat parts: boot select switch, usb port, reset button.   
   
-Keyboard <ins>pocket_kbd_lufa_ZX.hex</ins> is for arduino pro micro.  
-Emulator <ins>spectrum128_cpm_8bit-main.hex</ins> goes to STM32f407vet6.  
+Keyboard [pocket_kbd_lufa_ZX.hex](keyboard/pocket_kbd_lufa_ZX.hex) is for arduino pro micro.  
+Emulator [spectrum128_cpm_8bit-main.hex](spectrum128_cpm_8bit-main.hex) goes to STM32f407vet6.  
+  
   
   
 **Keyboard part:**  
